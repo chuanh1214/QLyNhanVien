@@ -1,0 +1,5 @@
+﻿@model IEnumerable<OnTapASP.Models.Phongban>
+    @foreach (var item in Model)
+    {
+        <a href="/danhmuc/@item.maphong">@item.tenphong</a> <label>&nbsp;|&nbsp;</label>
+    }
